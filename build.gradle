@@ -1,0 +1,7 @@
+// Top-level build file
+plugins {
+    id 'com.android.application'             version '8.3.2' apply false
+    id 'org.jetbrains.kotlin.android'        version '1.9.24' apply false
+    // Kotlin 1.9.x does NOT need kotlin.plugin.compose — remove it entirely
+    // composeOptions.kotlinCompilerExtensionVersion handles it instead
+}

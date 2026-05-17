@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.composedemo.CounterScreenTest" tests="13" failures="0" errors="0" skipped="0" time="10.493" timestamp="2026-05-17T16:47:48" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="decrement_button_disabled_when_count_is_zero" classname="com.example.composedemo.CounterScreenTest" time="1.026" />
+  <testcase name="shows_non_zero_count_correctly" classname="com.example.composedemo.CounterScreenTest" time="0.689" />
+  <testcase name="shows_initial_count_value" classname="com.example.composedemo.CounterScreenTest" time="0.671" />
+  <testcase name="increment_button_enabled_when_count_is_below_10" classname="com.example.composedemo.CounterScreenTest" time="0.694" />
+  <testcase name="error_text_not_shown_for_valid_count" classname="com.example.composedemo.CounterScreenTest" time="0.66" />
+  <testcase name="tapping_increment_fires_onIncrement_callback" classname="com.example.composedemo.CounterScreenTest" time="0.696" />
+  <testcase name="tapping_disabled_decrement_does_NOT_fire_callback" classname="com.example.composedemo.CounterScreenTest" time="0.665" />
+  <testcase name="tapping_decrement_fires_onDecrement_callback" classname="com.example.composedemo.CounterScreenTest" time="1.036" />
+  <testcase name="increment_button_disabled_when_count_is_10" classname="com.example.composedemo.CounterScreenTest" time="0.943" />
+  <testcase name="decrement_button_enabled_when_count_is_above_zero" classname="com.example.composedemo.CounterScreenTest" time="0.669" />
+  <testcase name="error_text_shown_when_count_is_negative" classname="com.example.composedemo.CounterScreenTest" time="0.668" />
+  <testcase name="tapping_reset_fires_onReset_callback" classname="com.example.composedemo.CounterScreenTest" time="1.018" />
+  <testcase name="all_main_ui_elements_are_visible" classname="com.example.composedemo.CounterScreenTest" time="0.627" />
+</testsuite>

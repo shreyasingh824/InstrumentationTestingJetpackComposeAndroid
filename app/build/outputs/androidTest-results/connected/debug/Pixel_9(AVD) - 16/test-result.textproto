@@ -1,0 +1,692 @@
+# 2026-05-17T16:47:48.918046Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 13
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "decrement_button_disabled_when_count_is_zero"
+    start_time {
+      seconds: 1779036458
+      nanos: 381000000
+    }
+    end_time {
+      seconds: 1779036459
+      nanos: 425000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-decrement_button_disabled_when_count_is_zero.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "shows_non_zero_count_correctly"
+    start_time {
+      seconds: 1779036459
+      nanos: 436000000
+    }
+    end_time {
+      seconds: 1779036460
+      nanos: 137000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-shows_non_zero_count_correctly.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "shows_initial_count_value"
+    start_time {
+      seconds: 1779036460
+      nanos: 138000000
+    }
+    end_time {
+      seconds: 1779036460
+      nanos: 808000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-shows_initial_count_value.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "increment_button_enabled_when_count_is_below_10"
+    start_time {
+      seconds: 1779036460
+      nanos: 810000000
+    }
+    end_time {
+      seconds: 1779036461
+      nanos: 504000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-increment_button_enabled_when_count_is_below_10.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "error_text_not_shown_for_valid_count"
+    start_time {
+      seconds: 1779036461
+      nanos: 505000000
+    }
+    end_time {
+      seconds: 1779036462
+      nanos: 164000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-error_text_not_shown_for_valid_count.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "tapping_increment_fires_onIncrement_callback"
+    start_time {
+      seconds: 1779036462
+      nanos: 166000000
+    }
+    end_time {
+      seconds: 1779036462
+      nanos: 860000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-tapping_increment_fires_onIncrement_callback.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "tapping_disabled_decrement_does_NOT_fire_callback"
+    start_time {
+      seconds: 1779036462
+      nanos: 862000000
+    }
+    end_time {
+      seconds: 1779036463
+      nanos: 527000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-tapping_disabled_decrement_does_NOT_fire_callback.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "tapping_decrement_fires_onDecrement_callback"
+    start_time {
+      seconds: 1779036463
+      nanos: 529000000
+    }
+    end_time {
+      seconds: 1779036464
+      nanos: 563000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-tapping_decrement_fires_onDecrement_callback.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "increment_button_disabled_when_count_is_10"
+    start_time {
+      seconds: 1779036464
+      nanos: 565000000
+    }
+    end_time {
+      seconds: 1779036465
+      nanos: 508000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-increment_button_disabled_when_count_is_10.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "decrement_button_enabled_when_count_is_above_zero"
+    start_time {
+      seconds: 1779036465
+      nanos: 510000000
+    }
+    end_time {
+      seconds: 1779036466
+      nanos: 179000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-decrement_button_enabled_when_count_is_above_zero.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "error_text_shown_when_count_is_negative"
+    start_time {
+      seconds: 1779036466
+      nanos: 180000000
+    }
+    end_time {
+      seconds: 1779036466
+      nanos: 848000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-error_text_shown_when_count_is_negative.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "tapping_reset_fires_onReset_callback"
+    start_time {
+      seconds: 1779036466
+      nanos: 849000000
+    }
+    end_time {
+      seconds: 1779036467
+      nanos: 868000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-tapping_reset_fires_onReset_callback.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CounterScreenTest"
+    test_package: "com.example.composedemo"
+    test_method: "all_main_ui_elements_are_visible"
+    start_time {
+      seconds: 1779036467
+      nanos: 869000000
+    }
+    end_time {
+      seconds: 1779036468
+      nanos: 495000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/logcat-com.example.composedemo.CounterScreenTest-all_main_ui_elements_are_visible.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/in46068146/Desktop/Leap/ComposeDemo/app/build/outputs/androidTest-results/connected/debug/Pixel_9(AVD) - 16/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

@@ -1,0 +1,185 @@
+05-17 22:17:36.700  9702  9715 I TestRunner: started: decrement_button_disabled_when_count_is_zero(com.example.composedemo.CounterScreenTest)
+05-17 22:17:36.721  9702  9715 W FileTestStorage: Output properties is not supported.
+05-17 22:17:36.721  9702  9715 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+05-17 22:17:36.725  9702  9702 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-17 22:17:36.726  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+05-17 22:17:36.726  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+05-17 22:17:36.726  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/InputManagerEventInjectionStrategy; (domain=app) using reflection: allowed
+05-17 22:17:36.728  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+05-17 22:17:36.728  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+05-17 22:17:36.728  9702  9702 I ple.composedemo: hiddenapi: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/test/espresso/base/Interrogator; (domain=app) using reflection: allowed
+05-17 22:17:36.729  9702  9715 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@3a2d4ec]
+05-17 22:17:36.737  9702  9715 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-17 22:17:36.739  9702  9715 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+05-17 22:17:36.748   673  1918 I system_server: AssetManager2(0xb400007ce3b66a98) locale list changing from [] to [en-US]
+05-17 22:17:36.749   673  1918 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c6722bcd does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-17 22:17:36.754   504   555 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:36.757   933  1145 I ndroid.systemui: AssetManager2(0xb400007ce3ae07b8) locale list changing from [] to [en-US]
+05-17 22:17:36.760  1074  1074 W SplitSelectStateCtor: Missing session instanceIds
+05-17 22:17:36.760  1074  1074 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-17 22:17:36.765   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:36.771   504   504 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:36.777  9702  9702 I ple.composedemo: AssetManager2(0xb400007ce3ab5838) locale list changing from [] to [en-US]
+05-17 22:17:36.782  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: PRE_ON_CREATE
+05-17 22:17:36.782  9702  9702 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-17 22:17:36.792  9702  9702 D CompatChangeReporter: Compat change id reported: 309578419; UID 10212; state: ENABLED
+05-17 22:17:36.793  9702  9702 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+05-17 22:17:36.804  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: CREATED
+05-17 22:17:36.804  9702  9702 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@f332fa
+05-17 22:17:36.804  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: STARTED
+05-17 22:17:36.805  9702  9702 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@f332fa
+05-17 22:17:36.820  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: RESUMED
+05-17 22:17:36.821  9702  9702 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@f332fa
+05-17 22:17:36.823  9702  9702 D CompatChangeReporter: Compat change id reported: 352594277; UID 10212; state: ENABLED
+05-17 22:17:36.830  9702  9718 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-17 22:17:36.831  9702  9718 I EGL_emulation: Opening libGLESv2_emulation.so
+05-17 22:17:36.837  9702  9718 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-17 22:17:36.837  9702  9718 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-17 22:17:36.845  9702  9702 D CompatChangeReporter: Compat change id reported: 349153669; UID 10212; state: ENABLED
+05-17 22:17:36.849  9702  9702 W HWUI    : Unknown dataspace 0
+05-17 22:17:36.940   673   714 I ActivityTaskManager: Displayed com.example.composedemo/androidx.activity.ComponentActivity for user 0: +194ms
+05-17 22:17:36.961   673   802 I ImeTracker: com.example.composedemo:19fe5c53: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-17 22:17:36.962  1074  1074 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@5835839
+05-17 22:17:36.962  9702  9702 D InsetsController: hide(ime(), fromIme=false)
+05-17 22:17:36.962  9702  9702 I ImeTracker: com.example.composedemo:19fe5c53: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-17 22:17:36.964  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+05-17 22:17:36.964   673  1016 I ImeTracker: system_server:e70b96d: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+05-17 22:17:36.965  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+05-17 22:17:36.965   673   717 I ImeTracker: system_server:e70b96d: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-17 22:17:36.965  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.composedemo, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-17 22:17:36.966  9702  9706 I ple.composedemo: Compiler allocated 5111KB to compile void android.view.ViewRootImpl.performTraversals()
+05-17 22:17:36.966  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+05-17 22:17:37.091  1074  1074 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-17 22:17:37.093  1074  1074 D BaseDepthController: setSurface:
+05-17 22:17:37.093  1074  1074 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-17 22:17:37.093  1074  1074 D BaseDepthController: 	mBaseSurface: null
+05-17 22:17:37.093  1074  1074 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-17 22:17:37.093  1074  1074 D StatsLog: LAUNCHER_ONSTOP
+05-17 22:17:37.093  1074  2385 D GmsPlayProvider: Forcefully shut down the binder channel
+05-17 22:17:37.093  1074  1074 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+05-17 22:17:37.094  1074  1074 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-17 22:17:37.094   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.094  1074  1074 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-17 22:17:37.107  1074  1074 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-17 22:17:37.206   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.208   933  1145 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@cb08966
+05-17 22:17:37.329   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.330  1236  2536 I FontLog : (REDACTED) Received query %s, URI %s
+05-17 22:17:37.330  1236  2536 I FontLog : (REDACTED) Query [%s] resolved to %s
+05-17 22:17:37.331  1236  2536 I FontLog : (REDACTED) Fetch %s end status %s
+05-17 22:17:37.334  1236  2536 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-17 22:17:37.343  1236  2536 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Common causes for lock verification issues are non-optimized dex code
+05-17 22:17:37.461  9702  9702 W ple.composedemo: and incorrect proguard optimizations.
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(boolean, kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+05-17 22:17:37.461  9702  9702 W ple.composedemo: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update$default(androidx.compose.runtime.snapshots.SnapshotStateList, boolean, kotlin.jvm.functions.Function1, int, java.lang.Object) failed lock verification and will run slower.
+05-17 22:17:37.506   673  1016 I system_server: AssetManager2(0xb400007ce3ad9a58) locale list changing from [] to [en-US]
+05-17 22:17:37.506   673  1016 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c9dbdd0b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-17 22:17:37.508   504   553 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:37.510   933  1145 I ndroid.systemui: AssetManager2(0xb400007ce3aeeef8) locale list changing from [] to [en-US]
+05-17 22:17:37.510  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: PAUSED
+05-17 22:17:37.511  9702  9702 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@f332fa
+05-17 22:17:37.512   673   717 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c9dbdd0b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-17 22:17:37.515   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.521   451   451 D Zygote  : Forked child process 9729
+05-17 22:17:37.521   504   504 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:37.533  9729  9729 I omposedemo.test: Late-enabling -Xcheck:jni
+05-17 22:17:37.533   933  1047 I ndroid.systemui: AssetManager2(0xb400007ce3ad3978) locale list changing from [] to [en-US]
+05-17 22:17:37.535   933  1047 I ndroid.systemui: AssetManager2(0xb400007ce3af4678) locale list changing from [] to [en-US]
+05-17 22:17:37.548  9729  9729 I omposedemo.test: Using CollectorTypeCMC GC.
+05-17 22:17:37.549   516   546 I adbd    : jdwp connection from 9729
+05-17 22:17:37.552  1074  1090 W System  : A resource failed to call release.
+05-17 22:17:37.552  9729  9729 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-17 22:17:37.552  1074  1090 W System  : A resource failed to call release.
+05-17 22:17:37.552  1074  1090 W System  : A resource failed to call release.
+05-17 22:17:37.555   472   472 I RanchuHwc: logCompositionFallbackIfChanged: layer 83 CompositionType fallback from 3 to 1
+05-17 22:17:37.569  9729  9729 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-17 22:17:37.571  9729  9729 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~e0p1P6-94BUQfoPMXa3nvA==/com.example.composedemo.test-gWgY7m07zuJ9g9GDGJmf5Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.composedemo.test
+05-17 22:17:37.572  9729  9729 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-17 22:17:37.572  9729  9729 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~e0p1P6-94BUQfoPMXa3nvA==/com.example.composedemo.test-gWgY7m07zuJ9g9GDGJmf5Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.composedemo.test
+05-17 22:17:37.597  9729  9729 D nativeloader: Configuring clns-11 for other apk /data/app/~~e0p1P6-94BUQfoPMXa3nvA==/com.example.composedemo.test-gWgY7m07zuJ9g9GDGJmf5Q==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~e0p1P6-94BUQfoPMXa3nvA==/com.example.composedemo.test-gWgY7m07zuJ9g9GDGJmf5Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.composedemo.test
+05-17 22:17:37.598  9729  9729 D CompatChangeReporter: Compat change id reported: 202956589; UID 10214; state: ENABLED
+05-17 22:17:37.600  9729  9729 I omposedemo.test: AssetManager2(0xb400007ce3aac878) locale list changing from [] to [en-US]
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment: Currently set values for:
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment: com.example.composedemo.test is not listed in per-application setting
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment: ANGLE allowlist from config:
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment: com.example.composedemo.test is not listed in ANGLE allowlist or settings, returning default
+05-17 22:17:37.604  9729  9729 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-17 22:17:37.613  9729  9729 I omposedemo.test: AssetManager2(0xb400007ce3ab03d8) locale list changing from [] to [en-US]
+05-17 22:17:37.617  9729  9729 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+05-17 22:17:37.624  9729  9729 D CompatChangeReporter: Compat change id reported: 279646685; UID 10214; state: ENABLED
+05-17 22:17:37.626  9729  9729 D CompatChangeReporter: Compat change id reported: 309578419; UID 10214; state: ENABLED
+05-17 22:17:37.627  9729  9729 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+05-17 22:17:37.637  9729  9729 D CompatChangeReporter: Compat change id reported: 352594277; UID 10214; state: ENABLED
+05-17 22:17:37.637  9729  9744 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-17 22:17:37.637  9729  9744 I EGL_emulation: Opening libGLESv2_emulation.so
+05-17 22:17:37.641  9729  9744 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-17 22:17:37.642  9729  9744 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-17 22:17:37.645  9729  9729 D CompatChangeReporter: Compat change id reported: 349153669; UID 10214; state: ENABLED
+05-17 22:17:37.645  9729  9729 W HWUI    : Unknown dataspace 0
+05-17 22:17:37.646   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.657   504   555 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:37.662   504   555 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10214 pid=0
+05-17 22:17:37.662   504   555 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10214 => denied (165 us)
+05-17 22:17:37.662   504   555 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10214 pid=0
+05-17 22:17:37.662   504   555 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10214 => denied (217 us)
+05-17 22:17:37.663   504   555 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=0
+05-17 22:17:37.663   504   555 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (377 us)
+05-17 22:17:37.663   504   621 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=9729
+05-17 22:17:37.663   504   621 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (309 us)
+05-17 22:17:37.669   673  1011 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10214 pid=0
+05-17 22:17:37.669   673  1011 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10214 => denied (143 us)
+05-17 22:17:37.669   673  1011 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10214 pid=0
+05-17 22:17:37.669   673  1011 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10214 => denied (7 us)
+05-17 22:17:37.669   673  1011 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10214 pid=0
+05-17 22:17:37.669   673  1011 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10214 => denied (4 us)
+05-17 22:17:37.676  1074  1074 D StatsLog: LAUNCHER_ONRESUME
+05-17 22:17:37.678   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:37.680  1668  1829 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+05-17 22:17:37.680  1074  1123 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=
+05-17 22:17:37.680  1668  1829 I AiAiEcho: EchoTargets:
+05-17 22:17:37.680  1668  1829 I AiAiEcho: Filtered by AiAi flag check:
+05-17 22:17:37.680  1668  1829 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+05-17 22:17:37.680  1668  1829 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+05-17 22:17:37.683  1668  1829 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+05-17 22:17:37.690  1074  1074 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+05-17 22:17:37.690  1074  1074 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+05-17 22:17:37.693  1074  1074 D BaseDepthController: setSurface:
+05-17 22:17:37.693  1074  1074 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-17 22:17:37.693  1074  1074 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xd6b7e69
+05-17 22:17:37.699  1074  1074 I NotificationListener: Handling notification state refresh for com.google.android.apps.wellbeing#0
+05-17 22:17:37.699  1074  1074 I NotificationListener: Handling notification state refresh for com.tesco.mobile.titan.prodtest.debug#0
+05-17 22:17:37.699  1074  1074 I NotificationListener: Handling notification state refresh for android#0
+05-17 22:17:37.700  1074  1074 D SsBaseTemplateCard: No text view can be set up
+05-17 22:17:37.700  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:37.700  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:37.700  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:37.700  1074  1074 I SsBaseTemplateCard: Secondary card pane is null
+05-17 22:17:37.708  9702  9702 D VRI[ComponentActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-17 22:17:37.710  1074  1074 D b/311077782: LauncherAnimationRunner.setAnimation
+05-17 22:17:37.723   673   802 I ImeTracker: com.google.android.apps.nexuslauncher:ec752037: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-17 22:17:37.725  1074  1074 D InsetsController: hide(ime(), fromIme=false)
+05-17 22:17:37.725  1074  1074 I ImeTracker: com.google.android.apps.nexuslauncher:ec752037: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-17 22:17:37.726  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+05-17 22:17:37.727  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: STOPPED
+05-17 22:17:37.727  9702  9702 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@f332fa
+05-17 22:17:37.728   673  1016 I ImeTracker: system_server:7a66e41b: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+05-17 22:17:37.728  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+05-17 22:17:37.729  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-17 22:17:37.729   673   717 I ImeTracker: system_server:7a66e41b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-17 22:17:37.730  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+05-17 22:17:37.732  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@f332fa in: DESTROYED
+05-17 22:17:37.732  9702  9702 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-17 22:17:37.733  9702  9702 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@97a78f1
+05-17 22:17:37.734  9702  9702 D ViewRootImpl: Skipping stats log for color mode
+05-17 22:17:37.738   472   472 I RanchuHwc: logCompositionFallbackIfChanged: layer 87 CompositionType fallback from 2 to 1
+05-17 22:17:37.738   472   472 I RanchuHwc: logCompositionFallbackIfChanged: layer 86 CompositionType fallback from 2 to 1
+05-17 22:17:37.739  1074  1074 D RecentsView: onTaskRemoved: 46, not handling task stack changes
+05-17 22:17:37.739  1074  1074 D RecentsView: onTaskRemoved: 46, not handling task stack changes
+05-17 22:17:37.740  9702  9715 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@3a2d4ec]
+05-17 22:17:37.743  9702  9715 I TestRunner: finished: decrement_button_disabled_when_count_is_zero(com.example.composedemo.CounterScreenTest)

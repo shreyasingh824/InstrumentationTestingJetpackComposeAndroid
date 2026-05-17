@@ -1,0 +1,102 @@
+05-17 22:17:42.865  9702  9715 I TestRunner: started: increment_button_disabled_when_count_is_10(com.example.composedemo.CounterScreenTest)
+05-17 22:17:42.866  9702  9715 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@6504304]
+05-17 22:17:42.867  9702  9715 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-17 22:17:42.869   673  1919 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c6722bcd does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-17 22:17:42.870   504   620 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:42.873  1074  1074 W SplitSelectStateCtor: Missing session instanceIds
+05-17 22:17:42.873  1074  1074 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+05-17 22:17:42.876   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:42.878   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:42.878  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: PRE_ON_CREATE
+05-17 22:17:42.878  9702  9702 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-17 22:17:42.880  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: CREATED
+05-17 22:17:42.880  9702  9702 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@cbd5221
+05-17 22:17:42.880  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: STARTED
+05-17 22:17:42.880  9702  9702 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@cbd5221
+05-17 22:17:42.880  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: RESUMED
+05-17 22:17:42.880  9702  9702 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@cbd5221
+05-17 22:17:42.889   504   504 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:42.898   673   714 I ActivityTaskManager: Displayed com.example.composedemo/androidx.activity.ComponentActivity for user 0: +29ms
+05-17 22:17:42.941   673   802 I ImeTracker: com.example.composedemo:3deb3dd9: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-17 22:17:42.942  9702  9702 D InsetsController: hide(ime(), fromIme=false)
+05-17 22:17:42.942  9702  9702 I ImeTracker: com.example.composedemo:3deb3dd9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-17 22:17:42.943  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+05-17 22:17:42.943  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+05-17 22:17:42.944   673  1919 I ImeTracker: system_server:522d0d32: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+05-17 22:17:42.944  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.example.composedemo, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-17 22:17:42.944   673   717 I ImeTracker: system_server:522d0d32: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-17 22:17:42.944  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+05-17 22:17:43.058  1691  1906 I bdee    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+05-17 22:17:43.189   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:43.191   933  1145 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@f05511a
+05-17 22:17:43.191  1074  1074 D VRI[NexusLauncherActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-17 22:17:43.205  1074  1074 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=7}
+05-17 22:17:43.209  1074  1074 D BaseDepthController: setSurface:
+05-17 22:17:43.209  1074  1074 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-17 22:17:43.209  1074  1074 D BaseDepthController: 	mBaseSurface: null
+05-17 22:17:43.209  1074  1074 D BaseDepthController: mSurface is null and mCurrentBlur is: 23
+05-17 22:17:43.209  1074  1074 D StatsLog: LAUNCHER_ONSTOP
+05-17 22:17:43.209  1074  1074 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+05-17 22:17:43.209  1074  2385 D GmsPlayProvider: Forcefully shut down the binder channel
+05-17 22:17:43.363   581  9516 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:43.426  1568  3439 I cn_CronetUrlRequestContext: destroyNativeStreamLocked org.chromium.net.impl.CronetBidirectionalStream@b4cafee
+05-17 22:17:43.429   673  1016 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c9dbdd0b does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+05-17 22:17:43.432   504   553 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:43.433   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:43.434  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: PAUSED
+05-17 22:17:43.434  9702  9702 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@cbd5221
+05-17 22:17:43.435  9729  9744 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-17 22:17:43.436  9729  9744 I EGL_emulation: Opening libGLESv2_emulation.so
+05-17 22:17:43.438   504   504 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+05-17 22:17:43.440  9729  9744 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-17 22:17:43.441  9729  9744 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-17 22:17:43.464  1074  1074 D ViewRootImpl: Skipping stats log for color mode
+05-17 22:17:43.465  1074  1074 D StatsLog: LAUNCHER_ONRESUME
+05-17 22:17:43.466  1074  1123 D QuickstepModelDelegate: notifyAppTargetEvent action=1 launchLocation=
+05-17 22:17:43.467  1668  1829 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+05-17 22:17:43.468  1668  1829 I AiAiEcho: EchoTargets:
+05-17 22:17:43.468  1668  1829 I AiAiEcho: Filtered by AiAi flag check:
+05-17 22:17:43.468  1668  1829 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+05-17 22:17:43.468  1668  1829 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+05-17 22:17:43.470  1668  1829 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+05-17 22:17:43.472  1074  1074 D NexusLauncherModelDelegate: notifySmartspaceEvent: SmartspaceTargetEvent{mSmartspaceTarget=null, mSmartspaceActionId='null', mEventType=6}
+05-17 22:17:43.472  1074  1074 D BaseDepthController: mSurface is null and mCurrentBlur is: 23
+05-17 22:17:43.474  1074  1074 D BaseDepthController: setSurface:
+05-17 22:17:43.474  1074  1074 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+05-17 22:17:43.474  1074  1074 D BaseDepthController: 	mBaseSurface: Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xd6b7e69
+05-17 22:17:43.479  1074  1074 I NotificationListener: Handling notification state refresh for com.google.android.apps.wellbeing#0
+05-17 22:17:43.479  1074  1074 I NotificationListener: Handling notification state refresh for com.tesco.mobile.titan.prodtest.debug#0
+05-17 22:17:43.479  1074  1074 I NotificationListener: Handling notification state refresh for android#0
+05-17 22:17:43.480  1074  1074 D SsBaseTemplateCard: No text view can be set up
+05-17 22:17:43.480  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:43.480  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:43.480  1074  1074 D SsBaseTemplateCard: Passed-in item info is null
+05-17 22:17:43.480  1074  1074 I SsBaseTemplateCard: Secondary card pane is null
+05-17 22:17:43.484  1074  1074 D b/311077782: LauncherAnimationRunner.setAnimation
+05-17 22:17:43.484  1074  1123 W HWUI    : Image decoding logging dropped!
+05-17 22:17:43.505   472   472 I RanchuHwc: logCompositionFallbackIfChanged: layer 136 CompositionType fallback from 2 to 1
+05-17 22:17:43.505   472   472 I RanchuHwc: logCompositionFallbackIfChanged: layer 137 CompositionType fallback from 2 to 1
+05-17 22:17:43.510   673   802 I ImeTracker: com.google.android.apps.nexuslauncher:31cb2cd1: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+05-17 22:17:43.511  1074  1074 D InsetsController: hide(ime(), fromIme=false)
+05-17 22:17:43.511  1074  1074 I ImeTracker: com.google.android.apps.nexuslauncher:31cb2cd1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-17 22:17:43.511  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2043
+05-17 22:17:43.512   673  1011 I ImeTracker: system_server:3c79e974: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+05-17 22:17:43.512  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+05-17 22:17:43.512   673   717 I ImeTracker: system_server:3c79e974: onCancelled at PHASE_SERVER_SHOULD_HIDE
+05-17 22:17:43.512  1499  1499 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1293 onStartInput(EditorInfo{EditorInfo{packageName=com.google.android.apps.nexuslauncher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+05-17 22:17:43.513  1499  1499 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+05-17 22:17:43.774   581   659 W IPCThreadState: Sending oneway calls to frozen process.
+05-17 22:17:43.775   933  1145 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@6c48a5
+05-17 22:17:43.810  9702  9702 D VRI[ComponentActivity]: visibilityChanged oldVisibility=true newVisibility=false
+05-17 22:17:43.813  9729  9729 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@1fcb5d0
+05-17 22:17:43.815  9729  9729 D ViewRootImpl: Skipping stats log for color mode
+05-17 22:17:43.817  1074  1074 D RecentsView: onTaskRemoved: 63, not handling task stack changes
+05-17 22:17:43.817  1074  1074 D RecentsView: onTaskRemoved: 63, not handling task stack changes
+05-17 22:17:43.827  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: STOPPED
+05-17 22:17:43.827  9702  9702 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@cbd5221
+05-17 22:17:43.828  9702  9702 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@cbd5221 in: DESTROYED
+05-17 22:17:43.828  9702  9702 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+05-17 22:17:43.828  9702  9702 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@de2ad15
+05-17 22:17:43.829  9702  9702 D ViewRootImpl: Skipping stats log for color mode
+05-17 22:17:43.831  9702  9715 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@6504304]
+05-17 22:17:43.831  9702  9715 I TestRunner: finished: increment_button_disabled_when_count_is_10(com.example.composedemo.CounterScreenTest)
